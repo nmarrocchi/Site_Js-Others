@@ -59,7 +59,7 @@
         <!-- Miku Nakano Logo & Otaku-Stream Text -->
         <div class="Icons">
                 <img class="Miku_Logo" src="Img/Miku_Logo.png">
-                <img class="Otaku-Stream_Logo" src="Img/Otaku-Stream.png">
+                <img class="Otaku-Stream_Logo" src="Img/Otakupédia.png">
         </div>
 
         <!-- Nav Menu -->
