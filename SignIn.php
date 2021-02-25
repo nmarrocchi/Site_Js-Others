@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require("functions.php");
+require("Functions.php");
 
 CheckIfLog();
 
@@ -39,7 +39,7 @@ CheckIfLog();
     <link rel="stylesheet" type="text/css" href="style/menu.css" />
     <link rel="stylesheet" type="text/css" href="style/home.css" />
     <link rel="stylesheet" type="text/css" href="style/register.css" />
-    <title>Otaku-Stream / Register</title>
+    <title>Otakupédia / Register</title>
 
         <style>
          .AccountCreate{
@@ -50,7 +50,7 @@ CheckIfLog();
 
 </head>
 <body>
-    <?php include ("menu.php")?>
+    <?php include ("Menu.php")?>
 
 
     <div class="content">

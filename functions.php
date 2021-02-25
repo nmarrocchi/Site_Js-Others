@@ -15,7 +15,7 @@ catch(PDOException $e){
 function CheckIfLog(){
     if(isset($_SESSION['Logged'])){
         if($_SESSION['Logged'] == 1){
-            header('Location: index.php');
+            header('Location: Index.php');
         }
         else{}
     }

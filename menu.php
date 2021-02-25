@@ -64,7 +64,7 @@
 
         <!-- Nav Menu -->
         <ul class="menu">
-                <a href="index.php"> <li>Home</li></a>
+                <a href="Index.php"> <li>Home</li></a>
                 <a href="Animes.php"> <li>Animes</li></a>
                 <a href="Movies.php"> <li>Animation's Movies</li></a>
         </ul>

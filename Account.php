@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require("functions.php");
+require("Functions.php");
 
 ?>
 
@@ -14,7 +14,7 @@ require("functions.php");
     <link rel="stylesheet" type="text/css" href="style/style.css" />
     <link rel="stylesheet" type="text/css" href="style/menu.css" />
     <link rel="stylesheet" type="text/css" href="style/account.css" />
-    <title>Otaku-Stream / Your Account</title>
+    <title>Otakupédia / Your Account</title>
 </head>
 <body>
     <?php 

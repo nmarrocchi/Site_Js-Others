@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require("functions.php");
+require("Functions.php");
 
 ?>
 
@@ -14,10 +14,10 @@ require("functions.php");
     <link rel="stylesheet" type="text/css" href="style/style.css" />
     <link rel="stylesheet" type="text/css" href="style/menu.css" />
     <link rel="stylesheet" type="text/css" href="style/animes.css" />
-    <title>Otaku-Stream / Movies</title>
+    <title>Otakupédia / Movies</title>
 </head>
 <body>
-<?php include ("menu.php")?>
+<?php include ("Menu.php")?>
 
 
     <div class="content">

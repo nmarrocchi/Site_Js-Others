@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require("functions.php");
+require("Functions.php");
 
 ?>
 
@@ -14,15 +14,15 @@ require("functions.php");
     <link rel="stylesheet" type="text/css" href="style/style.css" />
     <link rel="stylesheet" type="text/css" href="style/menu.css" />
     <link rel="stylesheet" type="text/css" href="style/home.css" />
-    <title>Otaku-Stream / Home</title>
+    <title>Otakupédia / Home</title>
 </head>
 <body>
-    <?php include ("menu.php")?>
+    <?php include ("Menu.php")?>
 
 
     <div class="content">
 
-        <h1>Welcome to Otaku-Stream</h1>
+        <h1>Welcome to Otakupédia</h1>
         <img src="Img/RemXRam.gif" alt="Rem x Ram">
 
     </div>

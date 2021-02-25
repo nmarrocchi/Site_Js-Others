@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require("functions.php");
+require("Functions.php");
 
 CheckIfLog();
 
@@ -14,7 +14,7 @@ CheckIfLog();
                 $LoginAccount = "You're Logged.";
                 $_SESSION['Logged'] = 1;
                 sleep(1);
-                header("Location: index.php");
+                header("Location: Index.php");
                 $_SESSION['Username'] = $UserExist["Pseudo"];
             } 
             else {
@@ -38,11 +38,11 @@ CheckIfLog();
     <link rel="stylesheet" type="text/css" href="style/home.css" />
     <link rel="stylesheet" type="text/css" href="style/login.css" />
     
-    <title>Otaku-Stream / Login</title>
+    <title>Otakupédia / Login</title>
 
 </head>
 <body>
-    <?php include ("menu.php")?>
+    <?php include ("Menu.php")?>
 
 
     <div class="content">

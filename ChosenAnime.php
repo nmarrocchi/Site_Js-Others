@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require("functions.php");
+require("Functions.php");
 
 ?>
 
@@ -13,12 +13,12 @@ require("functions.php");
     <link rel="icon" type="image/png" href="Img/Website_Icon.png">
     <link rel="stylesheet" type="text/css" href="style/style.css" />
     <link rel="stylesheet" type="text/css" href="style/menu.css" />
-    <link rel="stylesheet" type="text/css" href="style/ChosenAnime.css" />
-    <title>Otaku-Stream / <?php echo $_GET['Anime']?></title>
+    <link rel="stylesheet" type="text/css" href="style/chosenAnime.css" />
+    <title>Otakupédia / <?php echo $_GET['Anime']?></title>
 </head>
 <body>
     <?php 
-        include ("menu.php");
+        include ("Menu.php");
         $Anime = $bdd->query("SELECT * FROM animes WHERE Name = '".$_GET['Anime']."'");
         print_r("SELECT * FROM animes WHERE Name = '".$_GET['Anime']."'");
 
