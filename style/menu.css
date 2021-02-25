@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+a:link {color: white; text-decoration: none;}
+a:visited {color: white; text-decoration: none;}
+a:hover {color: white; text-decoration: underline;}
+a:active {color: white; text-decoration: none;}
+
+img{
+    width: 100%;
+}
+
+/* Menu Pictures */
+.Icons {
+  margin-bottom: 30%;
+}
+
+.Miku_Logo {
+  width: 50%;
+}
+
+/* Menu's CSS */
+.menu_div {
+    list-style-type: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 15%;
+    padding: 1%;
+    height: 100%;
+}
+
+.menu {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+  }
+
+  .menu li{
+    font-size: 20px;
+    margin: 10% auto;
+    padding: 5%;
+    color: white;
+    background: black;
+    border: solid white 3px;
+    border-radius: 40px;
+  }
+  
+  .menu li:hover{
+    margin: 10% auto;
+    padding: 5%;
+    color: black;
+    background: white;
+    border: solid white 3px;
+    border-radius: 40px;
+  }
+
+  /* Guest Menu's CSS */
+
+  .Account_Log {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+  }
+
+.Account_Log li{
+  display: inline-block;
+  margin: 5% 3% 25% 3%;
+  padding: 2% 4%;
+  color: white;
+  background: black;
+  border: solid white 3px;
+  border-radius: 40px;
+}
+
+.Account_Log li:hover{
+  display: inline-block;
+  margin: 5% 3% 25% 3%;
+  padding: 2% 4%;
+  color: black;
+  background: white;
+  border: solid white 3px;
+  border-radius: 40px;
+}
+
+  /* Users Menu's CSS */
+.User_Account{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+  }
+
+.User_Account table, .User_Account li:hover{
+  width: 80%;
+  margin: 1% auto 18.5% auto;
+  padding: 1% 4%;
+  border: solid white 3px;
+  border-radius: 40px;
+  text-align: left;
+}
+
+.User_Account table:hover{
+  color: black;
+  background: white;
+}
+
+.User_pp{
+  left: 0px;
+  margin-right: 5%;
+  height: 50px;
+  width: auto;
+  border-radius: 50px;
+  border: solid white 2px;
+  overflow: hidden;
+}
+
+.User_Account_Panel img, .User_Account_Panel p, .User_Account p{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Disconnect{
+  height: 40px;
+  width: auto;
+  right: 0px;
+  margin-left: 20%;
+}
+
+.User_Account_Panel p{
+  font-size: 15px;
+}

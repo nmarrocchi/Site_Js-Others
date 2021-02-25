@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Anime_Content{
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    width: 67%;
+    margin: 5% auto;
+    color: white;
+    background-color: black;
+}
+
+.Anime_Content img{
+    height: 540px;
+    width: 390px;
+    vertical-align: middle;
+    float: left;
+}
+
+.Anime_Infos{
+    width: 80%;
+}
+
+
+.Anime_Seasons, .Anime_Categories{
+    font-size: 20px;
+    margin: 0.5%;
+}
+
+.Anime_Categories p{
+    display: inline-block;
+    margin: 0.5%;
+}
+
+.Anime_Name, .Anime_Year{
+    display: inline-block;
+    font-size: 30px;
+    margin: 0.5%;
+}
+
+.Anime_Year{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Separator{
+    margin: 2% 0%;
+}
+
+.Anime_Description{
+    list-style-type: none;
+    font-size: 14px;
+    width: 70%;
+    margin: auto;
+}

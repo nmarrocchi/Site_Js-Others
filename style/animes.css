@@ -1,0 +1,62 @@
+
+/* Animes's Div CSS*/
+.Anime{
+    display: inline-block;
+    width: 25%;
+    margin: 2% 3%;
+    background-color: black;
+}
+
+/* Anime's Pictures */
+.Anime img{
+    height: 180px;
+    width: 130px;
+    vertical-align: middle;
+    float: left;
+}
+
+/* Anime's Informations */
+.Anime_Infos{
+    width: 60%;
+}
+
+.Anime_Name, .Anime_Year{
+    display: inline-block;
+}
+
+.Anime_Year{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* -------------------------------------------------- */
+
+/* Animes's Div CSS*/
+.Movie{
+    display: inline-block;
+    width: 25%;
+    margin: 2% 3%;
+    background-color: black;
+}
+
+/* MovieMovie's Pictures */
+.Movie img{
+    height: 180px;
+    width: 130px;
+    vertical-align: middle;
+    float: left;
+}
+
+/* Movie's Informations */
+.Movie_Infos{
+    width: 60%;
+}
+
+.Movie_Name, .Movie_Year{
+    display: inline-block;
+}
+
+.Movie_Year{
+    font-weight: bold;
+    font-style: italic;
+}

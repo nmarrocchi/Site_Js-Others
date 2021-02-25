@@ -1,0 +1,15 @@
+.content{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5%;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    width: 67%;
+    margin: 5% auto;
+    color: white;
+}
+
+.content img{
+    height: 500px;
+    width: 500px;
+}
