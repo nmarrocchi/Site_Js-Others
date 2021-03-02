@@ -3,7 +3,7 @@
 session_start();
 require("Functions.php");
 
-CheckIfLog();
+CheckIfCanBeLog();
 
 
         if (isset($_POST["Login"])) {

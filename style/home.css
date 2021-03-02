@@ -13,3 +13,9 @@
     height: 500px;
     width: 500px;
 }
+
+.AccessMsg{
+    color: red;
+    font-size: x-large;
+    margin: 1%;
+}

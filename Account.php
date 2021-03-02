@@ -2,6 +2,7 @@
 
 session_start();
 require("Functions.php");
+CheckIfLog();
 
 ?>
 

@@ -10,9 +10,34 @@ catch(PDOException $e){
     echo $e->getMessage();
 }
 
+/* Change Message if user is logged or not */
+function HomeMessage(){
+    if(isset($_SESSION['Logged'])){
+        if($_SESSION['Logged'] == 1){}
+        else{
+            echo '<p class="AccessMsg">To access other pages, please log in or register</p>' ;
+        }
+    }
+    else{
+        echo '<p class="AccessMsg">To access other pages, please log in or register</p>' ;
+    }
+}
 
 /* Check if user is logged */
 function CheckIfLog(){
+    if(isset($_SESSION['Logged'])){
+        if($_SESSION['Logged'] == 1){}
+        else{
+            header('Location: Index.php');
+        }
+    }
+    else{
+        header('Location: Index.php');
+    }
+}
+
+/* Check if user is logged and if isn't, he can login */
+function CheckIfCanBeLog(){
     if(isset($_SESSION['Logged'])){
         if($_SESSION['Logged'] == 1){
             header('Location: Index.php');

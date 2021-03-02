@@ -37,7 +37,7 @@
                         echo('
 
                                 <ul class="Account_Log">
-                                        <a href="SignIn.php"><li>Register</li></a>
+                                        <a href="Register.php"><li>Register</li></a>
                                         <a href="Login.php"><li>Login</li></a>
                                 </ul>
                         ');
@@ -48,7 +48,7 @@
                 echo('
 
                 <ul class="Account_Log">
-                        <a href="SignIn.php"><li>Register</li></a>
+                        <a href="Register.php"><li>Register</li></a>
                         <a href="Login.php"><li>Login</li></a>
                 </ul>
         ');   
@@ -65,8 +65,26 @@
         <!-- Nav Menu -->
         <ul class="menu">
                 <a href="Index.php"> <li>Home</li></a>
-                <a href="Animes.php"> <li>Animes</li></a>
-                <a href="Movies.php"> <li>Animation's Movies</li></a>
+
+                <?php
+
+                        if(isset($_SESSION['Logged'])){
+                                if($_SESSION['Logged'] == 1){
+
+                                        echo('
+
+                                                <a href="Animes.php"> <li>Animes</li></a>
+                                                <a href="Movies.php"> <li>Animations Movies</li></a>
+
+                                        ');
+
+                                }
+                                else{}
+
+                        }
+                        else{}
+
+                ?>
         </ul>
 
 </div>

@@ -25,6 +25,8 @@ require("Functions.php");
         <h1>Welcome to Otakupédia</h1>
         <img src="Img/RemXRam.gif" alt="Rem x Ram">
 
+        <?php HomeMessage() ?>
+
     </div>
     
 </body>
