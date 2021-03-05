@@ -2,6 +2,7 @@
 
 session_start();
 require("Functions.php");
+require("Class/User.php");
 
 CheckIfCanBeLog();
 

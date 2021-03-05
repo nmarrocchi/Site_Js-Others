@@ -9,7 +9,7 @@
                         echo('
 
                                 <div class="User_Account"><a href="Account.php">
-                                        <table>
+                                        <table onmouseover="this.style.backgroundColor=\'white\'; this.style.color=\'black\'; " onmouseout="this.style.backgroundColor=\'black\'; this.style.color=\'white\';">
                                                 <tr>
                                                         <td class="User_Account_Panel">
                                                                 <img class="User_pp" src="
@@ -56,27 +56,27 @@
 
         ?>
 
-        <!-- Miku Nakano Logo & Otaku-Stream Text -->
+        <!-- Miku Nakano Logo & Otakupédia Text -->
         <div class="Icons">
                 <img class="Miku_Logo" src="Img/Miku_Logo.png">
-                <img class="Otaku-Stream_Logo" src="Img/Otakupédia.png">
+                <img src="Img/Otakupédia.png">
         </div>
 
         <!-- Nav Menu -->
         <ul class="menu">
-                <a href="Index.php"> <li>Home</li></a>
+                <a href="Index.php"> <li onmouseover="this.style.backgroundColor='white'; this.style.color='black'; " onmouseout="this.style.backgroundColor='black'; this.style.color='white';">Home</li></a>
 
                 <?php
 
                         if(isset($_SESSION['Logged'])){
                                 if($_SESSION['Logged'] == 1){
 
-                                        echo('
+                                        echo("
 
-                                                <a href="Animes.php"> <li>Animes</li></a>
-                                                <a href="Movies.php"> <li>Animations Movies</li></a>
+                                                <a href=\"Animes.php\"> <li onmouseover=\"this.style.backgroundColor='white'; this.style.color='black'; \" onmouseout=\"this.style.backgroundColor='black'; this.style.color='white';\">Animes</li></a>
+                                                <a href=\"Movies.php\"> <li onmouseover=\"this.style.backgroundColor='white'; this.style.color='black'; \" onmouseout=\"this.style.backgroundColor='black'; this.style.color='white';\">Animations Movies</li></a>
 
-                                        ');
+                                        ");
 
                                 }
                                 else{}

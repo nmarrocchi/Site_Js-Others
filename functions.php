@@ -1,7 +1,7 @@
 <?php
 
 try{
-    $bdd = new PDO("mysql:host=localhost;dbname=Otaku-Stream","root","root");
+    $bdd = new PDO("mysql:host=localhost;dbname=otakupedia","root","root");
     $Animes = $bdd->query("SELECT * FROM Animes");
     $Movies = $bdd->query("SELECT * FROM Animes ORDER BY Year DESC");
 }

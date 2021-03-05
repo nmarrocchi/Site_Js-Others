@@ -17,6 +17,7 @@ require("Functions.php");
     <title>Otakupédia / Home</title>
 </head>
 <body>
+
     <?php include ("Menu.php")?>
 
 
@@ -29,5 +30,6 @@ require("Functions.php");
 
     </div>
     
+    <script src="Functions.js"></script>
 </body>
 </html>

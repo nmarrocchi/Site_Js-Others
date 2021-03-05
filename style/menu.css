@@ -51,15 +51,6 @@ img{
     border: solid white 3px;
     border-radius: 40px;
   }
-  
-  .menu li:hover{
-    margin: 10% auto;
-    padding: 5%;
-    color: black;
-    background: white;
-    border: solid white 3px;
-    border-radius: 40px;
-  }
 
   /* Guest Menu's CSS */
 
@@ -81,13 +72,8 @@ img{
 }
 
 .Account_Log li:hover{
-  display: inline-block;
-  margin: 5% 3% 25% 3%;
-  padding: 2% 4%;
   color: black;
   background: white;
-  border: solid white 3px;
-  border-radius: 40px;
 }
 
   /* Users Menu's CSS */
@@ -105,11 +91,6 @@ img{
   border: solid white 3px;
   border-radius: 40px;
   text-align: left;
-}
-
-.User_Account table:hover{
-  color: black;
-  background: white;
 }
 
 .User_pp{
