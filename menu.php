@@ -74,8 +74,6 @@
                                         echo("
 
                                                 <a href=\"Animes.php\"> <li onmouseover=\"this.style.backgroundColor='white'; this.style.color='black'; \" onmouseout=\"this.style.backgroundColor='black'; this.style.color='white';\">Animes</li></a>
-                                                <a href=\"Movies.php\"> <li onmouseover=\"this.style.backgroundColor='white'; this.style.color='black'; \" onmouseout=\"this.style.backgroundColor='black'; this.style.color='white';\">Animations Movies</li></a>
-
                                         ");
 
                                 }
