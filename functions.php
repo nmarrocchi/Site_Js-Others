@@ -1,9 +1,8 @@
 <?php
 
 try{
-    $bdd = new PDO("mysql:host=localhost;dbname=otakupedia","root","root");
-    $Animes = $bdd->query("SELECT * FROM Animes");
-    $Movies = $bdd->query("SELECT * FROM Animes ORDER BY Year DESC");
+    $bdd = new PDO("mysql:host=192.168.65.60;dbname=otakupédia","root","root");
+    $Animes = $bdd->query("SELECT * FROM animes ORDER BY Name ASC");
 }
 
 catch(PDOException $e){

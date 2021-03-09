@@ -21,8 +21,6 @@ CheckIfLog()
     <?php 
         include ("Menu.php");
         $Anime = $bdd->query("SELECT * FROM animes WHERE Name = '".$_GET['Anime']."'");
-        print_r("SELECT * FROM animes WHERE Name = '".$_GET['Anime']."'");
-
         While( $Anime_Infos = $Anime->fetch() )
         {
     ?>

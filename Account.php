@@ -20,7 +20,7 @@ CheckIfLog();
 </head>
 <body>
     <?php 
-        include ("menu.php");
+        include ("Menu.php");
         $UserInscription = $bdd->query("SELECT DATE_FORMAT(Inscription, ' %d/%m/%Y ') AS Inscription FROM users WHERE Pseudo = '".$_SESSION["Username"]."'");
         $UserDate = $UserInscription->fetch();
 
